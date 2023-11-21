@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <title>Traffic Challen Generator</title>
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="C:\Users\sphoorthi\Desktop\seproject\my go.png"
+  />
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body style="background-color: powderblue">
+    <div class="topnav">
+      <a href="main.html">Home</a>
+      <a class="active" href="user.html">User</a>
+      <a href="admin.html">Admin</a>
+      <a href="complaints.html">Complaints</a>
+
+      <h1>Traffic Go : Traffic Challen Generator</h1>
+    </div>
+
+    <main id="main-holder">
+      <h1 id="login-header">Login</h1>
+
+      <div id="login-error-msg-holder">
+        <p id="login-error-msg">
+          Invalid username
+          <span id="error-msg-second-line">and/or password</span>
+        </p>
+      </div>
+
+      <form id="login-form">
+        <input
+          type="text"
+          name="username"
+          id="username-field"
+          class="login-form-field"
+          placeholder="Username"
+        />
+        <input
+          type="password"
+          name="password"
+          id="password-field"
+          class="login-form-field"
+          placeholder="Password"
+        />
+        <input type="submit" value="Login" id="login-form-submit" />
+      </form>
+    </main>
+
+    <div class="footer">Taffic Go</div>
+  </body>
+</html>
