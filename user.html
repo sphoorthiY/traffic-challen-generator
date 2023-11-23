@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
   <title>Traffic Challen Generator</title>
-  <link
-    rel="icon"
-    type="image/x-icon"
-    href="C:\Users\sphoorthi\Desktop\seproject\my go.png"
-  />
+  <link rel="icon" type="image/x-icon" href="my go.png" />
   <head>
     <link rel="stylesheet" href="main.css" />
-    <script defer src="main.js"></script>
+    <script defer src="user.js"></script>
   </head>
   <body style="background-color: powderblue">
     <div class="topnav">
@@ -20,32 +16,32 @@
       <h1>Traffic Go : Traffic Challen Generator</h1>
     </div>
 
-    <main id="main-holder">
-      <h1 id="login-header">Login</h1>
+    <main id="user-holder">
+      <h1 id="user-header">User Login</h1>
 
-      <div id="login-error-msg-holder">
-        <p id="login-error-msg">
+      <div id="user-error-msg-holder">
+        <p id="user-error-msg">
           Invalid username
           <span id="error-msg-second-line">and/or password</span>
         </p>
       </div>
 
-      <form id="login-form">
+      <form id="user-form">
         <input
           type="text"
           name="username"
-          id="username-field"
+          id="usernameu-field"
           class="login-form-field"
           placeholder="Username"
         />
         <input
           type="password"
           name="password"
-          id="password-field"
+          id="passwordu-field"
           class="login-form-field"
           placeholder="Password"
         />
-        <input type="submit" value="Login" id="login-form-submit" />
+        <input type="submit" value="Login" id="user-form-submit" />
       </form>
     </main>
 
